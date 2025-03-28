@@ -7,7 +7,7 @@ from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, Callb
 BOT_TOKEN = "YOUR_BOT_TOKEN"
 API_URL = "https://alphaapis.org/Instagram/dl/v1?url={}"
 ADMIN_ID = YOUR_ADMIN_ID  # Replace with your Telegram user ID
-MONGO_URL = "YOUR_MONGODB_URL"  # Replace with your MongoDB connection URL
+MONGO_URL = "mongodb+srv://rajaig:rajaig99@cluster0.e13sqq9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Replace with your MongoDB connection URL
 
 # Connect to MongoDB
 client = pymongo.MongoClient(MONGO_URL)
