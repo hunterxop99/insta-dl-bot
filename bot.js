@@ -4,9 +4,9 @@ from telegram import Update, Bot
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
 
 # Replace with your credentials
-BOT_TOKEN = "YOUR_BOT_TOKEN"
+BOT_TOKEN = "7570984309:AAFma7oW29fS7pNiSR_uFovd_QSclIsosIw"
 API_URL = "https://alphaapis.org/Instagram/dl/v1?url={}"
-ADMIN_ID = YOUR_ADMIN_ID  # Replace with your Telegram user ID
+ADMIN_ID = 7420759568  # Replace with your Telegram user ID
 MONGO_URL = "mongodb+srv://rajaig:rajaig99@cluster0.e13sqq9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"  # Replace with your MongoDB connection URL
 
 # Connect to MongoDB
